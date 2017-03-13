@@ -1,0 +1,42 @@
+html {
+  font-family: "Abhaya Libre", serif;
+}
+
+.masthead {
+  background-color: #423ca3;
+  border: none;
+}
+
+h1 {
+  color: #fff;
+}
+
+.btn {
+  background-color: #15114c;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #15114c;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}
